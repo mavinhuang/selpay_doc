@@ -20,6 +20,8 @@
 
 **4.系统对接**
 
+商户应用对接我司动态码支付需要调用平台接口创建支付订单，生成二维码，轮询订单状态等操作。详细见[系统对接](rt/xtdj.md)
+
 使用生成的appkey进行支付地址拼接，例如：https://up.selpay.cn/#/pages/static/index?appKey=5f53481517b449b0a8c8dbe808d8bf5c 。打开http://cli.im ,输入地址生成二维码即可。
 
 **5.测试**
